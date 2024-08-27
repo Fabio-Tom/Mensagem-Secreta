@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing:border-box;
+    background-color: #E5E5E5;
+    color:#0A3871;
+    font-family:"Inter", sans-serif;
+    
+}
+
+.cabecalho {
+    margin: 0.5%;
+    padding-left: 2.5rem;
+}
+.criptografador {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.criptografador__insira-texto {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15rem;
+    padding-top: 12rem;
+}
+
+.criptografador__texto__digite {
+    font-size: 2rem;
+    font-family: "Inter";
+    font-weight: 400;
+
+}
+
+.criptografador__texto__digite-campo {
+    width: 42.5rem;
+    height: 18rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1;
+    vertical-align: top;
+    padding-block: 0px;
+    padding-inline: 0px;
+    overflow:hidden;
+    overflow-clip-margin: 18rem;
+
+}
+
+.criptografador__asterisco {
+    padding-top: 0.9rem;
+    display: flex;
+}
+
+.criptografador__insira-texto__nota {
+    padding-left: 0.3rem;
+    font-size: 0.75rem;
+}
+
+.criptografador__espaco-botao {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6.25rem;
+}
+
+.criptografador__botao ,.descriptografador__botao {
+    background-color: #0A3871;
+    color: white;
+    width: 20.5rem;
+    height: 4.18rem;
+    border-radius: 1.5rem;
+}
+
+.criptografador__botao:hover {
+    background: black;
+    width: 21rem;
+    transition: all;
+}
+
+.descriptografador__botao:hover {
+    background: black;
+    width: 21rem;
+    transition: all;
+}
+
+.criptografador__descriptografador {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15.6rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.criptografador__descriptografador__area {
+    width: 25rem;
+    height: 37.5rem;
+}
+
+.criptografador__descriptografado__copiar {
+    width: 20.5rem;
+    height: 4.18rem;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;    
+}
+
+.criptografador__descriptografado__copiar:hover {
+    background: black;
+    width: 21rem;
+    transition: all;
+}
